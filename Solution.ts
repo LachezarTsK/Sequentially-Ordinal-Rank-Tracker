@@ -1,5 +1,11 @@
 
 // const {PriorityQueue} = require('@datastructures-js/priority-queue');
+/*
+ PriorityQueue is internally included in the solution file on leetcode.
+ So, when running the code on leetcode it should stay commented out. 
+ It is mentioned here as a comment, just for information about 
+ which external library is applied for this data structure.
+*/
 
 class SORTracker {
 
