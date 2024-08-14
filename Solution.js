@@ -6,7 +6,7 @@ class SORTracker {
     #minHeap = new MinPriorityQueue(
             {compare: (x, y) => this.#comparatorMinScoreOnTopByEqualScoresLexicographicallyLargestName(x, y)});
 
-    #maxHeap = new PriorityQueue(
+    #maxHeap = new MaxPriorityQueue(
             {compare: (x, y) => this.#comparatorMaxScoreOnTopByEqualScoresLexicographicallySmallestName(x, y)});
 
     #numberOfQueries = 0;
